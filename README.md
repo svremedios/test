@@ -20,6 +20,18 @@ Today we will learn how to use this command:
 ~/code/bookstore$ rails db:seed
 ```
 
+### If You Need To Catch Up...
+
+These commands will discard your current work and get the latest code
+from GitHub.
+
+```
+~/code/bookstore$ git checkout -q .
+~/code/bookstore$ git clean -qdf
+~/code/bookstore$ git pull -q
+~/code/bookstore$ rails db:seed
+
+
 ### Update Your Cloud9 Tools
 
 An update is available.  You can install it like this:
