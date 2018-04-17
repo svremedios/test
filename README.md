@@ -23,12 +23,12 @@ Today we will learn how to use this command:
 ### If You Need To Catch Up...
 
 These commands will discard your current work and get the latest code
-from GitHub.
+from GitHub. Don't forget the `.` in the `git checkout .` command!
 
 ```
-~/code/bookstore$ git checkout -q .
-~/code/bookstore$ git clean -qdf
-~/code/bookstore$ git pull -q
+~/code/bookstore$ git checkout .
+~/code/bookstore$ git clean -df
+~/code/bookstore$ git pull
 ~/code/bookstore$ rails db:seed
 
 
