@@ -1,11 +1,13 @@
 # Example:
 #
-# Book
-#   title: text
-#   author_id: integer
-#   summary: text
-#   price: integer
-#   hardcover: boolean
+Book
+  title: text
+  price: integer
+  hardcover: boolean
+ 
+Author
+  name: text
+  
 #
 #
 # Indent consistently!  Follow the above syntax exactly.
