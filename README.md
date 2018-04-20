@@ -30,7 +30,7 @@ from GitHub. Don't forget the `.` in the `git checkout .` command!
 ~/code/bookstore$ git clean -df
 ~/code/bookstore$ git pull
 ~/code/bookstore$ rails db:seed
-
+```
 
 ### Update Your Cloud9 Tools
 
