@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 0) do
     t.boolean "hardcover", default: false
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text "photo_url"
   end
 
 end

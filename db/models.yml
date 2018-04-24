@@ -4,6 +4,7 @@ Book
   title: text
   price: integer
   hardcover: boolean
+  photo_url: text
  
 Author
   name: text
