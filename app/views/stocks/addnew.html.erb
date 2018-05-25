@@ -1,0 +1,19 @@
+<div class='col-sm-12 d-flex justify-content-center align-items-left flex-column'>
+    <h1>Add a new stock listing</h1> 
+    <form action="/stocks/create">
+        <table>
+            <thead>
+                <th></th>
+            </thead>
+            <tbody>
+                    <tr><td>Symbol:</td><td><input name="symbol"></td></tr>
+                    <tr><td>Company Name:</td><td><input name="co_name"></td></tr>
+                    <tr><td>IPO Year:</td><td><input name="ipo_year"></td></tr>
+                    <tr><td>Sector:</td><td><input name="sector"></td></tr>
+                    <tr><td>Industry:</td><td><input name="industry"></td></tr>
+                    <tr><td>Exchange:</td><td><select name="exchange"><option value="NYSE">NYSE</option><option value="NASDAQ">NASDAQ</option><option value="AMEX">AMEX</option></select></td></tr>
+                    <tr><td><button width=100%>Add this stock listing</button></button></td></tr>
+            </tbody>
+        </table> 
+    </form>
+</div>

@@ -22,9 +22,32 @@ ActiveRecord::Schema.define(version: 0) do
     t.text "title"
     t.integer "price"
     t.boolean "hardcover", default: false
+    t.text "photo_url"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.text "photo_url"
+    t.integer "author_id"
+    t.index ["author_id"], name: "index_books_on_author_id"
+  end
+
+  create_table "menu_items", force: :cascade do |t|
+    t.text "name"
+    t.text "link"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "stocks", force: :cascade do |t|
+    t.text "symbol"
+    t.text "co_name"
+    t.integer "last_price"
+    t.integer "mkt_cap"
+    t.text "ipo_year"
+    t.text "sector"
+    t.text "industry"
+    t.text "exchange"
+    t.text "website"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

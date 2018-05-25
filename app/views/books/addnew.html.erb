@@ -1,0 +1,18 @@
+<div class='col-sm-12 d-flex justify-content-left align-items-left flex-column'>
+    <h1>Add a new book</h1> 
+    <form action="/books/create" method="post">
+        <table>
+            <thead>
+                <th></th>
+            </thead>
+            <tbody>
+                    <tr><td>Title:</td><td><input name="title"></td></tr>
+                    <tr><td>Price:</td><td><input name="price"></td></tr>
+                    <tr><td>Photo link:</td><td><input name="photo_url"></td></tr>
+                    <tr><td>Type:</td><td><select name="hardcover" width=100%><option value="hardcover">Hardcover</option><option value="softcover">Softcover</option></select></td></tr>
+                    <tr><td></td></tr>
+                    <tr><td><button width=100%>Add this book</button></button></td><td><button width=100% name="another">Add another</button></button></td></tr>
+            </tbody>
+        </table> 
+    </form>
+</div>

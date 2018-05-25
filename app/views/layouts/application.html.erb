@@ -6,23 +6,54 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <%= javascript_include_tag "https://code.jquery.com/jquery-3.2.1.slim.min.js" %>
     <%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" %>
-
     <%= stylesheet_link_tag 'application', media: 'all' %>
-    <%= javascript_include_tag 'application' %>
 
   </head>
   <body>
 
-    <div class="container-fluid mt-3">
-
-      <%= yield %>
-
+    <header>
+      <div><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="/books">Book Store</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="main-menu" style="">
+          <ul class="navbar-nav mr-auto">
+            <% for item in Menu_item.all %>
+                <li class='nav-item'><a class="nav-link topic-nav-link " href=" <%=item.link %>"><%=item.name%></a></li>
+              <% end %>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0" action='/search'>
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" name="search_text">
+          </form>
+          <form action='/sign-in'><button class="btn btn-outline" type="sign-in">Sign in</button></form>
+        </div>
+      </nav></div>
+    </header>
+    <div class="clearfix">
+      <div class='menu'>
+        <ul>
+          <li><a href="#">The City</a></li>
+          <li><a href="#">The City</a></li>
+          <li><a href="#">The Island</a></li>
+          <li><a href="#">The Food</a></li>
+        </ul> 
+      </div>  
+      <div class="content">
+        <%= yield %>
+      </div>
+    </div>
+    <div class='container-fluid pt-3 text-muted border-top' id='footer'>
+      <table align="right"><tr>
+        <td><a href=#><img src="/assets/facebook.jpg" width=30 height=30></a></td>
+        <td><a href=#><img src="/assets/twitter.jpg" width=30 height=30></a></td>
+        <td><a href=#><img src="/assets/linkedin.jpg" width=30 height=30></a></td>
+      </tr></table>
     </div>
 
-
-
+    <%= javascript_include_tag "https://code.jquery.com/jquery-3.2.1.slim.min.js" %>
+    <%= javascript_include_tag 'application' %>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
   </body>
