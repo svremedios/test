@@ -13,6 +13,7 @@
 //= require rails-ujs
 //= require_tree .
 
+/*
 $(document).ready(() => {
   const $menuButton = $('.menu-button');
   const $navDropdown = $('#nav-dropdown');
@@ -25,3 +26,4 @@ $(document).ready(() => {
     $navDropdown.hide();
   })
 })
+*/
