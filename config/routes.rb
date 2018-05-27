@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
 
   get "/login" => "sessions#new"
-  get "/sessions/create" => 'sessions#create'
+  post "/sessions/create" => 'sessions#create'
   get "/logout" => "sessions#destroy"
     
   get "/books" => "books#index"
@@ -29,6 +29,6 @@ Rails.application.routes.draw do
   get "/users/:id/edit" => "users#edit"
   get "/users/:id/update" => "users#update"
     
-  root :to => "books#index"
+  root :to => "stocks#index"
 
 end
