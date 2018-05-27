@@ -34,6 +34,17 @@ ActiveRecord::Schema.define(version: 0) do
     t.text "link"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean "requires_login", default: false
+  end
+
+  create_table "sessions", force: :cascade do |t|
+    t.integer "user_id"
+    t.datetime "start"
+    t.datetime "end"
+    t.text "traffic"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.index ["user_id"], name: "index_sessions_on_user_id"
   end
 
   create_table "stocks", force: :cascade do |t|
@@ -48,6 +59,15 @@ ActiveRecord::Schema.define(version: 0) do
     t.text "website"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.text "name"
+    t.text "email"
+    t.text "password_digest"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer "user_type", default: 0
   end
 
 end

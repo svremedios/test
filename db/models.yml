@@ -13,42 +13,28 @@ Author
 Menu_item
   name: text
   link: text
+  requires_login: boolean
   
 Stock
-    symbol: text
-    co_name: text
-    last_price: integer
-    mkt_cap: integer
-    ipo_year: 
-    sector: text
-    industry: text
-    exchange: text
-    website: text
+  symbol: text
+  co_name: text
+  last_price: integer
+  mkt_cap: integer
+  ipo_year: 
+  sector: text
+  industry: text
+  exchange: text
+  website: text
+    
+User
+  name: text
+  email: text
+  password_digest: text
+  user_type: integer (0)
   
-#
-#
-# Indent consistently!  Follow the above syntax exactly.
-#
-#
-#
-# Column choices are: text, integer, boolean, datetime, and float.
-#
-#
-# Default values can be specified like this:
-#
-#    price: integer(0)
-#
-# If not specified, Boolean columns always default to false.
-#
-# You can omit the column type if it's a text column or obviously an integer column:
-#
-# Book
-#   title
-#   author_id
-#   summary
-#   price: integer
-#   hardcover: boolean
-#
-# Complete details are in the README file online.
-#
-# Have fun!
+Session
+  user_id: integer
+  start: datetime
+  end: datetime
+  traffic: text
+  
