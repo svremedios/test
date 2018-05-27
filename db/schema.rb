@@ -57,6 +57,10 @@ ActiveRecord::Schema.define(version: 0) do
     t.datetime "updated_at"
     t.integer "first_round_cost"
     t.integer "second_round_cost"
+    t.integer "first_round_num_bids"
+    t.integer "first_round_seats"
+    t.integer "second_round_num_bids"
+    t.integer "second_round_seats"
     t.index ["course_id"], name: "index_coursesessions_on_course_id"
     t.index ["faculty_id"], name: "index_coursesessions_on_faculty_id"
   end

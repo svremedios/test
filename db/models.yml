@@ -28,7 +28,7 @@ Faculty
 Course
   code_id: string
   name: text
-  credit: double
+  credit: float
   discipline: text
   
   
