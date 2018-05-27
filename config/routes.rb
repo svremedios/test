@@ -23,7 +23,7 @@ Rails.application.routes.draw do
   
   get "/users" => "users#index"
   get "/users/new" => "users#new"
-  get "/users/create" => "users#create"
+  post "/users/create" => "users#create"
   get "/users/:id/delete" => "users#destroy"
   get "/users/:id" => "users#show"
   get "/users/:id/edit" => "users#edit"
