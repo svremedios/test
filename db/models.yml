@@ -1,5 +1,36 @@
 # Example:
 #
+Coursesession
+  course_id: integer
+  faculty_id: integer
+  term: text
+  year: integer
+  first_round_cost: integer
+  second_round_cost: integer
+  
+  course_score: integer
+  faculty_score: integer
+  learning_score: integer
+  difficult_score: integer
+  global_score: integer
+  examples_score: integer
+  workload_score: integer
+  campus: text
+  schedule: text
+  
+Faculty
+  first_name: text
+  last_name: text
+  
+Course
+  code_id: string
+  name: text
+  credit: double
+  discipline: text
+  
+  
+
+
 Book
   title: text
   price: integer

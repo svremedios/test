@@ -1,6 +1,5 @@
 # Data from Nasdaq on stocks listed on US exchanges
 # Taking a subset of data to speed up seeding
-
 Stock.delete_all
 require 'csv'
 nysedata = CSV.open("db/stock_data/nysecompanylist.csv").readlines
@@ -12,6 +11,7 @@ for tmp in nysedata[1..nysedata.length]
     end
     i = i + 1
 end
+
 
 nasdaqdata = CSV.open("db/stock_data/companylist.csv").readlines
 i = 0

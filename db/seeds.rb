@@ -9,12 +9,13 @@ Book.create title: 'Keats Poetry and Prose', price: 2121, hardcover: true, photo
 Book.create title: 'The Great Gatsby', price: 1495, hardcover: false, photo_url: 'https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/TheGreatGatsby_1925jacket.jpeg/220px-TheGreatGatsby_1925jacket.jpeg'
 
 Menu_item.delete_all
-Menu_item.create link:"/books", name:'Books', requires_login: false
+Menu_item.create link:"/courses", name:'Courses', requires_login: false
+Menu_item.create link:"/faculty", name:'Faculty', requires_login: false
 Menu_item.create link:"/stocks", name:'Stocks', requires_login: false
 Menu_item.create link:"/stocks/addnew", name:'Add stock', requires_login: false
 Menu_item.create link:"/books/addnew", name:'Add book', requires_login: false
-Menu_item.create link:"/books/reseed", name:'Reseed books', requires_login: false
-Menu_item.create link:"/stocks/reseed?size=mini", name:'Reseed stocks', requires_login: false
+Menu_item.create link:"/reseed", name:'Reseed', requires_login: false
+
 
 
 print "file completed \n"

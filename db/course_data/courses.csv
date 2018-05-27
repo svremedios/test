@@ -1,0 +1,214 @@
+"","course","CourseTitle","discipline","credit","N"
+"1","MORS-472","Negotiations Fundamentals","MORS",0.5,100
+"2","KACI-461","Personal Leadership Insights","KACI",0.5,88
+"3","FINC-442","Financial Decisions","FINC",1,87
+"4","FINC-431","Finance II","FINC",1,79
+"5","INTL-473","Global Initiatives in Management (GIM)","INTL",1,78
+"6","OPNS-430","Operations Management","OPNS",1,75
+"7","KIEI-462","New Venture Discovery","KIEI",1,73
+"8","MKTG-450","Marketing Research and Analytics","MKTG",1,73
+"9","MKTG-466","Marketing Strategy","MKTG",1,71
+"10","STRT-452","Strategy and Organization","STRT",1,63
+"11","FINC-430","Finance I","FINC",1,54
+"12","MECN-430","Microeconomic Analysis","MECN",1,54
+"13","MKTG-454","Advertising Strategy","MKTG",1,52
+"14","KPPI-460","Values Based Leadership","KPPI",1,51
+"15","MKTG-430","Marketing Management","MKTG",1,51
+"16","KPPI-441","Strategy Beyond Markets","KPPI",1,48
+"17","FINC-445","Entrepreneurial Finance and Venture Capital","FINC",1,45
+"18","KPPI-440","Leadership and Crisis Management","KPPI",0.5,45
+"19","KIEI-903","Corporate Innovation and New Ventures","KIEI",1,44
+"20","MECN-441","Competitive Strategy and Industrial Structure","MECN",1,43
+"21","MORS-460","Leading and Managing Teams","MORS",1,43
+"22","BLAW-435","Business Law","BLAW",1,42
+"23","MORS-462","Leading and Managing Diverse Organizations","MORS",0.5,42
+"24","ACCT-451","Financial Reporting and Analysis","ACCT",1,41
+"25","FINC-470","International Finance","FINC",1,40
+"26","KACI-450","Persuasive Presentations","KACI",1,39
+"27","MKTG-462","Retail Analytics","MKTG",1,39
+"28","FINC-940","Financial Modeling for Leveraged Buyout Transactions","FINC",0.5,37
+"29","STRT-431","Business Strategy","STRT",1,37
+"30","STRT-466","Strategic Challenges in Emerging Markets","STRT",1,36
+"31","FINC-454","Real Estate Finance and Investments","FINC",1,34
+"32","ACCT-430","Accounting For Decision Making","ACCT",1,33
+"33","ACCT-431","Managerial Accounting","ACCT",1,33
+"34","FINC-950","Capital Markets","FINC",1,33
+"35","MKTG-465","Launching New Products and Services","MKTG",1,32
+"36","OPNS-450","Analytical Decision Modeling","OPNS",1,31
+"37","MKTG-961","Entrepreneurial Tools for Digital Marketing","MKTG",0.5,30
+"38","DECS-431","Business Analytics II","DECS",1,29
+"39","MKTG-955","Digital Marketing Analytics","MKTG",1,29
+"40","MORS-453","Power In Organizations: Sources, Strategies and Skills","MORS",1,29
+"41","MKTG-451","Marketing Channel Strategies","MKTG",1,28
+"42","REAL-922","International Real Estate","REAL",0.5,28
+"43","STRT-460","International Business Strategy","STRT",1,28
+"44","KIEI-911","Medical Technology Financing and Commercialization","KIEI",1,27
+"45","STRT-441","Intellectual Capital Management","STRT",1,27
+"46","KIEI-925","Startup Programming and Management","KIEI",1,26
+"47","MORS-430","Leadership in Organizations","MORS",1,26
+"48","DECS-430","Business Analytics I","DECS",0.5,25
+"49","MORS-452","Leading the Strategic Change Process","MORS",1,25
+"50","HEMA-924","Transformation of the US Healthcare Delivery System","HEMA",0.5,24
+"51","FINC-465","Derivative Markets I","FINC",1,23
+"52","KIEI-924","Introduction to Software Development","KIEI",1,23
+"53","KPPI-470","Public Economics for Business Leaders: Federal Policy","KPPI",1,23
+"54","MKTG-925","Strategic Brand Management","MKTG",1,23
+"55","STRT-955","Strategies for Growth","STRT",0.5,23
+"56","FINC-463","Securities Analysis","FINC",1,22
+"57","FINC-941","Macroeconomic Policy and Global Capital Markets","FINC",1,22
+"58","MKTG-953","Customer Analytics","MKTG",1,22
+"59","MKTG-962","Entrepreneurial Selling: Business to Business","MKTG",0.5,22
+"60","MORS-955","Creativity as a Business Tool","MORS",0.5,22
+"61","BLAW-911","Business Law for Entrepreneurs","BLAW",0.5,21
+"62","DECS-450","Decision Making and Modeling","DECS",1,21
+"63","FINC-448","Mergers and Acquisitions, LBOs and Corporate Restructuring","FINC",1,21
+"64","MORS-945","Social Dynamics and Network Analytics","MORS",1,21
+"65","DECS-452","Game Theory and Strategic Decisions","DECS",1,20
+"66","MECN-446","Pricing Strategies","MECN",1,20
+"67","STRT-960","Strategic Decisions: A Guide to Making Winning Choices","STRT",0.5,20
+"68","FINC-451","Money Markets and the Fed","FINC",1,19
+"69","FINC-461","Investment Banking","FINC",1,19
+"70","KACI-468","Managerial Leadership","KACI",1,19
+"71","KACI-469","Leadership: Power, Politics and Talk","KACI",0.5,18
+"72","KIEI-952","Entrepreneurship: Building Innovation, Teams, and Cultures","KIEI",0.5,18
+"73","KMCI-940","Data Analytics Decisions","KMCI",0.5,18
+"74","MKTG-918","Consumers, Culture, and Leadership","MKTG",0.5,18
+"75","MORS-934","Managing in Professonal Service Firms","MORS",1,18
+"76","MORS-946","Managing Organizations for Growth","MORS",0.5,18
+"77","FINC-444","Value Investing","FINC",1,17
+"78","KACI-467","Perspectives on Leadership","KACI",1,17
+"79","KACI-925","Visualization for Persuasion","KACI",0.5,17
+"80","MORS-474","Cross-Cultural Negotiation","MORS",1,17
+"81","MORS-952","Entrepreneurship: Building Innovation, Teams, and Cultures","MORS",0.5,17
+"82","STRT-934","Managing Turnarounds","STRT",1,17
+"83","KPPI-455","Board Governance of Non-Profit Organizations","KPPI",0.5,16
+"84","MKTG-957","eCommerce and Digital Marketing","MKTG",1,16
+"85","REAL-443","Urban Economic Development and Real Estate Market Analysis","REAL",0.5,16
+"86","REAL-444","Real Estate Development","REAL",1,16
+"87","MKTG-940","C Suite and Boardroom Dynamics","MKTG",1,15
+"88","BLAW-437","Regulation of Competitive Strategies","BLAW",1,14
+"89","FINC-447","Financial Strategy and Tax","FINC",1,14
+"90","FINC-455","Applied Real Estate Finance and Investments","FINC",1,14
+"91","FINC-945","Global Entrepreneurial Finance","FINC",1,14
+"92","KIEI-965","Global Corporate Governance","KIEI",1,14
+"93","KIEI-966","Entrepreneurial Selling","KIEI",1,14
+"94","KPPI-452","Social Innovation: Designing for Change","KPPI",1,14
+"95","KPPI-917","Corporate Social Innovation","KPPI",0.5,14
+"96","MKTG-453","Business-to-Business (B2B) Marketing","MKTG",1,14
+"97","MKTG-473","Strategic Brand Management","MKTG",1,14
+"98","OPNS-923","Enterprise Risk Management","OPNS",1,14
+"99","STRT-950","Competitive Strategy in Financial Services Markets","STRT",0.5,14
+"100","STRT-951","Innovation in Financial Services Markets","STRT",0.5,14
+"101","FINC-484","Thought Leadership Seminar","FINC",0.5,13
+"102","KACI-462","Leader as Coach","KACI",1,13
+"103","KACI-940","Selling Yourself and Your Ideas","KACI",1,13
+"104","OPNS-454","Operations Strategy","OPNS",1,13
+"105","STRT-444","Healthcare Economics","STRT",1,13
+"106","FINC-460","Investments","FINC",1,12
+"107","FINC-931","Wall Street, Hedge Funds and Private Equity","FINC",1,12
+"108","FINC-944","Investment Banking Recruiting Prep","FINC",0.5,12
+"109","FINC-946","Impact Investing and Sustainable Finance","FINC",1,12
+"110","HEMA-453","Critical Issues in the Pharmaceutical, Biotech, and Medical Device Industries","HEMA",1,12
+"111","KIEI-905","Entrepreneurship Through Acquisition","KIEI",0.5,12
+"112","KIEI-935","Intellectual Property for Entrepreneurs","KIEI",0.5,12
+"113","KPPI-450","Leading Mission Driven Enterprises","KPPI",1,12
+"114","KPPI-454","The Education Industry","KPPI",0.5,12
+"115","KPPI-933","Health and Human Rights","KPPI",1,12
+"116","MECN-450","Macroeconomics","MECN",1,12
+"117","OPNS-455","Supply Chain Management","OPNS",1,12
+"118","STRT-461","Innovation in Financial Services Markets","STRT",1,12
+"119","ACCT-444","Financial Planning for Mergers & Acquisitions","ACCT",1,11
+"120","HEMA-914","Biomedical Marketing","HEMA",1,11
+"121","KACI-930","Leader Development Models and Practices","KACI",0.5,11
+"122","KIEI-924","Introduction to Software Development","KIEI",0.5,11
+"123","KIEI-967","Launching and Leading Startups","KIEI",1,11
+"124","MKTG-458","Consumer Insight for Brand Strategy","MKTG",1,11
+"125","STRT-469","Analytics for Strategy","STRT",1,11
+"126","ACCT-459","Sustainability Reporting and Analysis","ACCT",0.5,10
+"127","FINC-473","Macroeconomic Policy and Global Capital Markets","FINC",1,10
+"128","HEMA-931","Pharmaceutical Strategy","HEMA",0.5,10
+"129","KMCI-935","Programming for Analytics","KMCI",1,10
+"130","MORS-455","Strategy Implementation","MORS",1,10
+"131","MORS-457","Social Dynamics and Network Analytics","MORS",1,10
+"132","REAL-925","Real Estate Entrepreneurship","REAL",1,10
+"133","STRT-440","People Analytics and Strategy","STRT",1,10
+"134","STRT-927","Family Enterprises: Issues and Solutions","STRT",1,10
+"135","DECS-922","Data Exploration","DECS",0.5,9
+"136","KIEI-932","Product Management for Technology Companies: An Entrepreneurial Perspective","KIEI",1,9
+"137","MECN-451","Decision Making and Modeling","MECN",1,9
+"138","MECN-484","Thought Leadership Seminar","MECN",0.5,9
+"139","MKTG-468","Technology Marketing","MKTG",1,9
+"140","MKTG-482","Customer Analytics","MKTG",1,9
+"141","MORS-470","Negotiations","MORS",1,9
+"142","ACCT-457","Global Financial Management and Reporting","ACCT",0.5,8
+"143","HEMA-940","Health Analytics","HEMA",0.5,8
+"144","KACI-950","Human and Machine Intelligence","KACI",0.5,8
+"145","MEDM-432","Understanding the Media and Content","MEDM",1,8
+"146","MEDM-915","Managing Digital Media","MEDM",0.5,8
+"147","MKTG-484","Thought Leadership Seminar","MKTG",0.5,8
+"148","MORS-915","Recruiting & Retaining Talent in Growth Companies","MORS",0.5,8
+"149","OPNS-925","The Rookie General Manager","OPNS",0.5,8
+"150","STRT-475","Strategies for Growth","STRT",0.5,8
+"151","STRT-958","The Economics of Energy Markets","STRT",0.5,8
+"152","KPPI-480","Public Economics for Business Leaders: State and Local Policy","KPPI",1,7
+"153","MKTG-956","Digital Marketing Strategy","MKTG",1,7
+"154","MKTG-959","Behavioral Marketing Science","MKTG",1,7
+"155","MORS-920","Social Media and Reputation","MORS",0.5,7
+"156","STRT-443","Healthcare Strategy","STRT",1,7
+"157","ACCT-444","Financial Planning for Mergers & Acquisitions","ACCT",0.5,6
+"158","ACCT-920","Financial Analysis for Strategic Marketing","ACCT",1,6
+"159","FINC-440","Accelerated Corporate Finance","FINC",1,6
+"160","FINC-467","Derivative Markets II","FINC",1,6
+"161","FINC-477","Global Entrepreneurial Finance","FINC",1,6
+"162","HEMA-470","Biomedical Marketing","HEMA",1,6
+"163","HEMA-926","Patient-Centric Business Models, Solution and Strategies","HEMA",0.5,6
+"164","KMCI-935","Programming for Analytics","KMCI",0.5,6
+"165","KMCI-940","Data Analytics Decisions","KMCI",1,6
+"166","KPPI-940","Early Stage Impact Investing","KPPI",1,6
+"167","MORS-454","Creating and Managing Strategic Alliances","MORS",0.5,6
+"168","STRT-447","Family Enterprises: Issues and Solutions","STRT",1,6
+"169","STRT-931","Strategic Franchising","STRT",0.5,6
+"170","KMCI-930","Technology in the Age of Analytics","KMCI",0.5,5
+"171","MKTG-478","C Suite and Boardroom Dynamics","MKTG",1,5
+"172","MKTG-948","Customer Loyalty","MKTG",0.5,5
+"173","STRT-463","Technology and Innovation Strategy","STRT",1,5
+"174","ACCT-452","Issues in Financial Reporting","ACCT",1,4
+"175","BLAW-925","Mergers and Acquisitions: The Art of the Deal","BLAW",1,4
+"176","FINC-937","Micro-finance and Financial Inclusion","FINC",1,4
+"177","HEMA-922","Health Care Quality","HEMA",0.5,4
+"178","HEMA-935","Strategy and Execution for a Successful Healthcare Delivery System","HEMA",0.5,4
+"179","KIEI-458","Product Management for Technology Companies: An Entrepreneurial Perspective","KIEI",1,4
+"180","KIEI-942","New Venture Launch","KIEI",0.5,4
+"181","KIEI-958","Commercializing Innovations","KIEI",1,4
+"182","KPPI-450","Strategic Perspectives in Nonprofit Management","KPPI",0.5,4
+"183","KPPI-484","Thought Leadership Seminar","KPPI",1,4
+"184","KPPI-925","Social Impact and Technology Innovation","KPPI",0.5,4
+"185","KPPI-940","Investing in Early Stage Impact Companies","KPPI",0.5,4
+"186","KPPI-947","Decision-Making for Sustainable Business","KPPI",0.5,4
+"187","KPPI-957","The Business of Social Change","KPPI",1,4
+"188","MKTG-926","Creative on Demand: Brand Management 24/7","MKTG",0.5,4
+"189","MKTG-935","Consumer Led Growth","MKTG",0.5,4
+"190","MKTG-949","Ethnographic Customer Insights","MKTG",0.5,4
+"191","MKTG-954","Mastering Marketing Technologies","MKTG",0.5,4
+"192","MORS-451","Designing Organizational Systems","MORS",1,4
+"193","MORS-476","Bargaining","MORS",1,4
+"194","MORS-910","Sports and People Analytics","MORS",0.5,4
+"195","OPNS-940","Applied Advanced Analytics","OPNS",1,4
+"196","OPNS-955","Scaling Operations: Linking Strategy and Execution","OPNS",0.5,4
+"197","REAL-447","Legal Issues In Real Estate","REAL",1,4
+"198","REAL-465","Real Estate Entrepreneurship","REAL",1,4
+"199","STRT-945","Healthcare Strategy","STRT",1,4
+"200","","Leadership and Crisis Management","",NA,3
+"201","","Personal Leadership Insights","",NA,3
+"202","KIEI-915","Growth Strategy Practicum","KIEI",1,3
+"203","MECN-452","Game Theory and Strategic Decisions","MECN",1,3
+"204","OPNS-482","Service Operations","OPNS",1,3
+"205","STRT-947","Healthcare Strategy Lab","STRT",1,3
+"206","FINC-970","Empirical Methods in Finance","FINC",1,2
+"207","KACI-915","Strategic Communication for Organizations","KACI",0.5,2
+"208","MKTG-959","Behavioral Marketing Science","MKTG",0.5,2
+"209","OPNS-917","Implementing Project Management","OPNS",1,2
+"210","OPNS-980","Service Design","OPNS",1,2
+"211","KIEI-927","Recruiting & Retaining Talent in Growth Companies","KIEI",0.5,1
+"212","MORS-450","Management Communications","MORS",1,1
+"213","STRT-512","Intl Practicum/Cross-Cultural Management Practice","STRT",0.5,1
