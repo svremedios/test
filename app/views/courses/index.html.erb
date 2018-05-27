@@ -1,17 +1,22 @@
 <div class='col-sm-12 d-flex justify-content-center align-items-left flex-column'>
-    <h1>Kellogg course listings</h1>
-    <h6>Total listings: <%=Course.count%></h6>
+    <h1>Kellogg courses</h1>
+    <h6>Total number of courses: <%=Course.count%></h6>
     <table class="table table-striped table-sm" width=60%>
         <thead>
-            <tr><th>Course code</th><th>Course name</th><th>Faculty</th><th>Credit</th><th></th></tr>
+            <tr><th>Course code</th><th>Course name</th><th>Average course score</th><th></th></tr>
         </thead>
         <tbody>
-            <% for each in Course.order(:code_id) %>
+            <% for each in Course.all %>
+                <% tmp_score = Coursesession.where(course_id: each.id).average(:course_score) %>
+                <% if tmp_score.nil? %>
+                    <% tmp_score = nil %>
+                <% else %>
+                    <% tmp_score = tmp_score.round(1) %>
+                <% end %>
                 <tr>
                     <td><a href="/courses/<%=each.id%>"><%=each.code_id%></a></td>
                     <td><a href="/courses/<%=each.id%>"><%=each.name%></a></td>
-                    <td><%=each.discipline%></td>
-                    <td><%=each.credit%></td>
+                    <td><%=tmp_score%>/6.0</td>
                     <td><a href="/courses/<%=each.id%>/delete">[remove]</a></td>
                 </tr>
             <% end %>

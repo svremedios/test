@@ -70,6 +70,7 @@ ActiveRecord::Schema.define(version: 0) do
     t.text "last_name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text "raw_name"
   end
 
   create_table "menu_items", force: :cascade do |t|

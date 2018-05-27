@@ -24,6 +24,7 @@ Coursesession
 Faculty
   first_name: text
   last_name: text
+  raw_name: text
   
 Course
   code_id: string
