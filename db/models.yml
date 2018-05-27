@@ -6,8 +6,11 @@ Coursesession
   term: text
   year: integer
   first_round_cost: integer
+  first_round_num_bids: integer
+  first_round_seats: integer
   second_round_cost: integer
-  
+  second_round_num_bids: integer
+  second_round_seats: integer
   course_score: integer
   faculty_score: integer
   learning_score: integer

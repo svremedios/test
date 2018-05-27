@@ -18,6 +18,7 @@ for i in course_data[1..course_data.length]
     Course.create code_id: i[1], name: i[2], credit: i[4], discipline: i[3]
 end
 
+Course.where("code_id LIKE ?", "").delete_all
 
 # Coursesession.delete_all
 # coursesession_data = CSV.open("db/course_data/combined_data.csv").readlines

@@ -9,7 +9,7 @@
             <% for each in Faculty.order(:last_name) %>
                 <tr>
                     <td>
-                        <a href="http://www.kellogg.northwestern.edu/faculty/directory/<%=each.last_name%>_<%=each.first_name%>.aspx">
+                        <a target="_blank" href="http://www.kellogg.northwestern.edu/faculty/directory/<%=each.last_name%>_<%=each.first_name%>.aspx">
                             <%=each.first_name%> <%=each.last_name%>
                         </a>
                     </td>
