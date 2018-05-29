@@ -7,6 +7,8 @@ Menu_item.create link:"/faculty", name:'Faculty'
 Menu_item.create link:"/reseed", name:'Reseed', requires_admin: true, requires_login: true
 Menu_item.create link: "/users/", name:"My Account", requires_login: true
 
+User.create name:"Admin",  email:"admin@example.com", password:"purple", user_type: 1
+
 
 
 

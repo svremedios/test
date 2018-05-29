@@ -8,24 +8,12 @@ Rails.application.routes.draw do
     
   get "/courses" => "courses#index"
   get "/courses/:id/delete" => "courses#destroy"
+  get "/courses/:id" => "courses#details"
   
   get "/faculty" => "faculties#index"
   get "/faculty/:id/delete" => "faculties#destroy"
+  get "/faculty/:id" => "faculties#details"
     
-  get "/books" => "books#index"
-  get "/books/addnew" => "books#addnew"
-  get "/books/create" => "books#create"
-  post "/books/create" => "books#create"
-  get "/books/:id/delete" => "books#destroy"
-  get "/books/:id" => "books#details"
-
-  
-  get "/stocks" => "stocks#index"
-  get '/stocks/addnew' => 'stocks#addnew'
-  get '/stocks/create' => 'stocks#create'
-  get '/stocks/:id/delete' => 'stocks#destroy'
-  get '/stocks/:id' => 'stocks#show'
-  
   get "/users" => "users#index"
   get "/users/new" => "users#new"
   post "/users/create" => "users#create"

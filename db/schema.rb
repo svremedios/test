@@ -24,9 +24,15 @@ ActiveRecord::Schema.define(version: 0) do
 
   create_table "coursesessions", force: :cascade do |t|
     t.integer "course_id"
+    t.integer "faculty_id"
     t.text "term"
     t.integer "year"
-    t.integer "faculty_id"
+    t.integer "first_round_cost"
+    t.integer "first_round_num_bids"
+    t.integer "first_round_seats"
+    t.integer "second_round_cost"
+    t.integer "second_round_num_bids"
+    t.integer "second_round_seats"
     t.integer "course_score"
     t.integer "faculty_score"
     t.integer "learning_score"
@@ -38,12 +44,6 @@ ActiveRecord::Schema.define(version: 0) do
     t.text "schedule"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer "first_round_cost"
-    t.integer "second_round_cost"
-    t.integer "first_round_num_bids"
-    t.integer "first_round_seats"
-    t.integer "second_round_num_bids"
-    t.integer "second_round_seats"
     t.index ["course_id"], name: "index_coursesessions_on_course_id"
     t.index ["faculty_id"], name: "index_coursesessions_on_faculty_id"
   end
@@ -51,19 +51,19 @@ ActiveRecord::Schema.define(version: 0) do
   create_table "faculties", force: :cascade do |t|
     t.text "first_name"
     t.text "last_name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
     t.text "raw_name"
     t.float "score"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "menu_items", force: :cascade do |t|
     t.text "name"
     t.text "link"
-    t.datetime "created_at"
-    t.datetime "updated_at"
     t.boolean "requires_login", default: false
     t.boolean "requires_admin", default: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "sessions", force: :cascade do |t|
@@ -80,9 +80,9 @@ ActiveRecord::Schema.define(version: 0) do
     t.text "name"
     t.text "email"
     t.text "password_digest"
+    t.integer "user_type", default: 0
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer "user_type", default: 0
   end
 
 end
