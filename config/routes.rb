@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get "/reseed" => "application#reseed"
     
   get "/courses" => "courses#index"
+  get "/courses/test" => "courses#test"
   
   get "/faculty" => "faculties#index"
     

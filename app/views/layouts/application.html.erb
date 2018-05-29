@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" %>
+    <%= stylesheet_link_tag "https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
 
   </head>
@@ -78,9 +79,10 @@
       </tr></table>
     </div>
 
-    <%= javascript_include_tag "https://code.jquery.com/jquery-3.2.1.slim.min.js" %>
+    <%= javascript_include_tag "https://code.jquery.com/jquery-1.12.4.js" %>
     <%= javascript_include_tag 'application' %>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <%= javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" %>
+    <%= javascript_include_tag "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" %>
+    <%= javascript_include_tag 'https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js' %>
   </body>
 </html>
