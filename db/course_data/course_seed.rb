@@ -17,21 +17,21 @@ end
 
 Course.where("code_id LIKE ?", "").delete_all
 
-  Coursesession.delete_all
-  coursesession_data = CSV.open("db/course_data/combined_data.csv").readlines
+Coursesession.delete_all
+coursesession_data = CSV.open("db/course_data/combined_data.csv").readlines
   
-  for i in coursesession_data[1..coursesession_data.length]
-    if Course.find_by(code_id: i[29]).nil?
-      tmp_course_id = nil
-    else
-      tmp_course_id = Course.find_by(code_id: i[29]).id
-    end
-    if Faculty.find_by(raw_name: i[3]).nil?
-      tmp_faculty_id = nil
-    else
-      tmp_faculty_id = Faculty.find_by(raw_name: i[3]).id
-    end
-    Coursesession.create  course_id: tmp_course_id,
+for i in coursesession_data[1..coursesession_data.length]
+  if Course.find_by(code_id: i[29]).nil?
+    tmp_course_id = nil
+  else
+    tmp_course_id = Course.find_by(code_id: i[29]).id
+  end
+  if Faculty.find_by(raw_name: i[3]).nil?
+    tmp_faculty_id = nil
+  else
+    tmp_faculty_id = Faculty.find_by(raw_name: i[3]).id
+  end
+  Coursesession.create  course_id: tmp_course_id,
                         term: i[27],
                         year: i[26],
                         faculty_id: tmp_faculty_id,
@@ -44,7 +44,7 @@ Course.where("code_id LIKE ?", "").delete_all
                         workload_score: i[23],
                         campus: i[7],
                         schedule: i[8]
-  end
+end
   
 
 

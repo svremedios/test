@@ -12,23 +12,6 @@
 
 ActiveRecord::Schema.define(version: 0) do
 
-  create_table "authors", force: :cascade do |t|
-    t.text "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "books", force: :cascade do |t|
-    t.text "title"
-    t.integer "price"
-    t.boolean "hardcover", default: false
-    t.text "photo_url"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.integer "author_id"
-    t.index ["author_id"], name: "index_books_on_author_id"
-  end
-
   create_table "courses", force: :cascade do |t|
     t.string "code_id"
     t.text "name"
@@ -71,6 +54,7 @@ ActiveRecord::Schema.define(version: 0) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.text "raw_name"
+    t.float "score"
   end
 
   create_table "menu_items", force: :cascade do |t|
@@ -79,6 +63,7 @@ ActiveRecord::Schema.define(version: 0) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean "requires_login", default: false
+    t.boolean "requires_admin", default: false
   end
 
   create_table "sessions", force: :cascade do |t|
@@ -89,20 +74,6 @@ ActiveRecord::Schema.define(version: 0) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.index ["user_id"], name: "index_sessions_on_user_id"
-  end
-
-  create_table "stocks", force: :cascade do |t|
-    t.text "symbol"
-    t.text "co_name"
-    t.integer "last_price"
-    t.integer "mkt_cap"
-    t.text "ipo_year"
-    t.text "sector"
-    t.text "industry"
-    t.text "exchange"
-    t.text "website"
-    t.datetime "created_at"
-    t.datetime "updated_at"
   end
 
   create_table "users", force: :cascade do |t|

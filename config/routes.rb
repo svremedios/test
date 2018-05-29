@@ -32,6 +32,6 @@ Rails.application.routes.draw do
   get "/users/:id/edit" => "users#edit"
   get "/users/:id/update" => "users#update"
     
-  root :to => "stocks#index"
+  root :to => "courses#index"
 
 end

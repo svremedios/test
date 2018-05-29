@@ -25,6 +25,7 @@ Faculty
   first_name: text
   last_name: text
   raw_name: text
+  score: float
   
 Course
   code_id: string
@@ -32,35 +33,12 @@ Course
   credit: float
   discipline: text
   
-  
-
-
-Book
-  title: text
-  price: integer
-  hardcover: boolean
-  photo_url: text
-  author_id: integer
- 
-Author
-  name: text
-  
 Menu_item
   name: text
   link: text
-  requires_login: boolean
+  requires_login: boolean (false)
+  requires_admin: boolean (false)
   
-Stock
-  symbol: text
-  co_name: text
-  last_price: integer
-  mkt_cap: integer
-  ipo_year: 
-  sector: text
-  industry: text
-  exchange: text
-  website: text
-    
 User
   name: text
   email: text
