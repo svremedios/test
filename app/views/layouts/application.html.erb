@@ -17,7 +17,7 @@
 
     <header>
       <div><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="/">Bidding buddy 2</a>
+        <a class="navbar-brand" href="/">Bidding buddy</a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,6 +43,7 @@
           </form>
 -->
           <% if session["user_id"] == nil %>
+            <a class="nav-link topic-nav-link " href="/users/new">Sign Up</a>
             <form action='/login'><button class="btn btn-outline" type="Sign in">Sign in</button></form>
           <% else %>
             <form action='/logout'><button class="btn btn-outline" type="Sign out">Sign out</button></form>

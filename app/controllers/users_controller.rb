@@ -20,17 +20,21 @@ class UsersController < ApplicationController
     user = User.find_by(email: params["email"])
     if user == nil
       if params[:password] == params[:password_check]
-        User.create name: params["name"],
+        tmp = User.create name: params["name"],
                     email: params["email"],
                     password: params["password"]
-        user = User.find_by(email: params["email"])
-        session["user_id"] = user.id
-        redirect_to "/", notice: "Hello, #{user.name}"
+        if tmp.valid?
+          user = User.find_by(email: params["email"])
+          session["user_id"] = user.id
+          redirect_to "/", notice: "Hello, #{user.name}"
+        else
+          render "/users/new", notice: "Your passwords did not match: Please try again."
+        end
       else
-        redirect_to "/users/new", notice: "Your passwords did not match: Please try again."
+        render "/users/new", notice: "Your passwords did not match: Please try again."
       end
     else
-      redirect_to "/login", notice: "The email address #{params["email"]} is already registered. Please sign in."
+      render "/login", notice: "The email address #{params["email"]} is already registered. Please sign in."
     end
   end
 

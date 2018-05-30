@@ -7,8 +7,10 @@ Rails.application.routes.draw do
   get "/reseed" => "application#reseed"
     
   get "/courses" => "courses#index"
+  get "/courses/test" => "courses#test"
   get "/courses/:id/delete" => "courses#destroy"
   get "/courses/:id" => "courses#details"
+  
   
   get "/faculty" => "faculties#index"
   get "/faculty/:id/delete" => "faculties#destroy"

@@ -11,7 +11,7 @@ class SessionsController < ApplicationController
   def destroy
      # session["user_id"] = nil
     reset_session
-    redirect_to "/", notice: "See ya!"
+    redirect_to "/", notice: "You are now signed out!"
   end
 
   def new
@@ -27,7 +27,7 @@ class SessionsController < ApplicationController
         session["user_id"] = user.id
         redirect_to "/", notice: "Hello, #{user.name}"
       else
-        redirect_to "/login", notice: "Nice try."
+        redirect_to "/login", notice: "The password is incorrect, please try again"
       end
     end
   end
