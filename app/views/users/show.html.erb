@@ -1,9 +1,89 @@
+<div class='container-fluid pt-3 text-muted border-top'>
+
+
 <h1>My Account</h1>
 
 <% if session["user_id"] != nil %>
-    <% current_user = User.find_by(id: params["id"]) %>
+    <% current_user = User.find_by(id: session["user_id"]) %>
 
     <p>Email: <%= current_user.email %></p>
-    <p>Password: <%= current_user.password %></p>
-    
 <% end %>
+</div>
+<div class='container-fluid pt-3 text-muted border-top'>
+<h3>Change password</h3>    
+<form action="/users/<%=params["id"]%>/edit" class="col-sm-4" method="post">
+    <p class="form-group">
+        Existing password:
+        <input class="form-control" name="password_current" type="password" autofocus required>
+    </p>
+    <p class="form-group">
+        New password:
+        <input class="form-control" name="password" type="password_new" required>
+    </p>
+    <p class="form-group">
+        Re-enter Password:
+        <input class="form-control" name="password_new_check" type="password" required>
+    </p>
+    
+    <button class="btn btn-primary">Change my password</button>
+</form>
+</div>
+<br>
+<div class='container-fluid pt-3 text-muted border-top'>
+<h3>User preferences</h3>
+<br>
+<form action="/users/<%=params["id"]%>/edit" class="col-sm-4" method="post">
+  <h5>Course preferences</h5>        
+  <p class="form-group">
+    Course overall
+    <input type="range" class="form-control-range" min="0" max="10" value="5" id="formControlRange">
+  </p>
+  <p class="form-group">
+    Instructor overall
+    <input type="range" class="form-control-range" id="formControlRange">
+  </p>
+  <p class="form-group">
+    Learning
+    <input type="range" class="form-control-range" id="formControlRange">
+  </p>
+  <p class="form-group">
+    Difficulty
+    <input type="range" class="form-control-range" id="formControlRange">
+  </p>
+  <p class="form-group">
+    Examples
+    <input type="range" class="form-control-range" id="formControlRange">
+  </p>
+  <p class="form-group">
+    Workload
+    <input type="range" class="form-control-range" id="formControlRange">
+  </p>
+  <br>
+  <!--<h5>Faculty preferences</h5>   -->
+  <!--<p class="form-group">-->
+  <!--  Course overall-->
+  <!--  <input type="range" class="form-control-range" min="0" max="10" value="5" id="formControlRange">-->
+  <!--</p>-->
+  <!--<p class="form-group">-->
+  <!--  Instructor overall-->
+  <!--  <input type="range" class="form-control-range" id="formControlRange">-->
+  <!--</p>-->
+  <!--<p class="form-group">-->
+  <!--  Learning-->
+  <!--  <input type="range" class="form-control-range" id="formControlRange">-->
+  <!--</p>-->
+  <!--<p class="form-group">-->
+  <!--  Difficulty-->
+  <!--  <input type="range" class="form-control-range" id="formControlRange">-->
+  <!--</p>-->
+  <!--<p class="form-group">-->
+  <!--  Examples-->
+  <!--  <input type="range" class="form-control-range" id="formControlRange">-->
+  <!--</p>-->
+  <!--<p class="form-group">-->
+  <!--  Workload-->
+  <!--  <input type="range" class="form-control-range" id="formControlRange">-->
+  <!--</p>-->
+</form>
+</div>
+

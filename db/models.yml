@@ -44,6 +44,13 @@ User
   email: text
   password_digest: text
   user_type: integer (0)
+  course_preference: integer (5)
+  faculty_preference: integer (5)
+  learning_preference: integer (5)
+  difficult_preference: integer (5)
+  global_preference: integer (5)
+  examples_preference: integer (5)
+  workload_preference: integer (5)
   
 Session
   user_id: integer

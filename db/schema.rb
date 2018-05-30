@@ -83,6 +83,13 @@ ActiveRecord::Schema.define(version: 0) do
     t.integer "user_type", default: 0
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer "course_preference", default: 5
+    t.integer "faculty_preference", default: 5
+    t.integer "learning_preference", default: 5
+    t.integer "difficult_preference", default: 5
+    t.integer "global_preference", default: 5
+    t.integer "examples_preference", default: 5
+    t.integer "workload_preference", default: 5
   end
 
 end

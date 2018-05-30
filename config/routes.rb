@@ -20,9 +20,10 @@ Rails.application.routes.draw do
   get "/users/new" => "users#new"
   post "/users/create" => "users#create"
   get "/users/:id/delete" => "users#destroy"
-  get "/users/:id" => "users#show"
+  get "/users/edit" => "users#edit"
   get "/users/:id/edit" => "users#edit"
   get "/users/:id/update" => "users#update"
+  get "/users/:id" => "users#show"
     
   root :to => "courses#index"
 
