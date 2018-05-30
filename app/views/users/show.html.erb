@@ -33,10 +33,10 @@
 <h3>User preferences</h3>
 <br>
 <form action="/users/<%=params["id"]%>/edit" class="col-sm-4" method="post">
-  <h5>Course preferences</h5>        
+  <h5>Please score the importance [1-10]</h5>
   <p class="form-group">
-    Course overall
-    <input type="range" class="form-control-range" min="0" max="10" value="5" id="formControlRange">
+    Course overall: <span id="demo">10</span>
+    <input type="range" class="form-control-range" min="0" max="10" value="5" id="myRange">
   </p>
   <p class="form-group">
     Instructor overall
@@ -58,6 +58,7 @@
     Workload
     <input type="range" class="form-control-range" id="formControlRange">
   </p>
+  <button class="btn btn-primary">Update my preferences</button>
   <br>
   <!--<h5>Faculty preferences</h5>   -->
   <!--<p class="form-group">-->

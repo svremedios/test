@@ -27,7 +27,7 @@ class SessionsController < ApplicationController
         session["user_id"] = user.id
         redirect_to "/", notice: "Hello, #{user.name}"
       else
-        redirect_to "/login", notice: "The password is incorrect, please try again"
+        redirect_to "/login", notice: "The password is incorrect, please try again."
       end
     end
   end
