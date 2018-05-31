@@ -10,26 +10,6 @@
 <% end %>
 </div>
 <div class='container-fluid pt-3 text-muted border-top'>
-<h3>Change password</h3>    
-<form action="/users/<%=params["id"]%>/edit" class="col-sm-4" method="post">
-    <p class="form-group">
-        Existing password:
-        <input class="form-control" name="password_current" type="password" autofocus required>
-    </p>
-    <p class="form-group">
-        New password:
-        <input class="form-control" name="password" type="password_new" required>
-    </p>
-    <p class="form-group">
-        Re-enter Password:
-        <input class="form-control" name="password_new_check" type="password" required>
-    </p>
-    
-    <button class="btn btn-primary">Change my password</button>
-</form>
-</div>
-<br>
-<div class='container-fluid pt-3 text-muted border-top'>
 <h3>User preferences</h3>
 <br>
 <form action="/users/<%=params["id"]%>/edit" class="col-sm-4" method="post">
@@ -59,6 +39,29 @@
     <input type="range" class="form-control-range" id="formControlRange">
   </p>
   <button class="btn btn-primary">Update my preferences</button>
+</form>
+</div>
+<br>
+<div class='container-fluid pt-3 text-muted border-top'>
+  <h3>Change password</h3>    
+  <form action="/users/<%=params["id"]%>/edit" class="col-sm-4" method="post">
+    <p class="form-group">
+      Existing password:
+      <input class="form-control" name="password_current" type="password" required>
+    </p>
+    <p class="form-group">
+      New password:
+      <input class="form-control" name="password" type="password_new" required>
+    </p>
+    <p class="form-group">
+      Re-enter Password:
+      <input class="form-control" name="password_new_check" type="password" required>
+    </p>
+    <button class="btn btn-primary">Change my password</button>
+  </form>
+</div>
+  
+  
   <br>
   <!--<h5>Faculty preferences</h5>   -->
   <!--<p class="form-group">-->
